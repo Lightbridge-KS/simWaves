@@ -37,6 +37,7 @@ This function simulates sinusoidal wave data in a data frame format for further 
 You can input parameters such as number of cycle to simulate (\code{n}), wave length, amplitude, and ranges of data to simulate.
 }
 \examples{
-# Sin Waves with 2 cycle, amplitude = 3
-sim_sinusoid("sin", n = 2, amp = 3)
+# Sinwaves with 2 cycle, amplitude = 3
+df_sin1 <- sim_sinusoid("sin", n = 2, amp = 3)
+plot(df_sin1, type = "l")
 }

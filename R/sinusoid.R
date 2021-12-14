@@ -16,8 +16,9 @@
 #' @export
 #'
 #' @examples
-#' # Sin Waves with 2 cycle, amplitude = 3
-#' sim_sinusoid("sin", n = 2, amp = 3)
+#' # Sinwaves with 2 cycle, amplitude = 3
+#' df_sin1 <- sim_sinusoid("sin", n = 2, amp = 3)
+#' plot(df_sin1, type = "l")
 sim_sinusoid <- function(f = "sin", # function to simulate
                          n = 1, # Number of Cycle
                          lambda = NULL, # If provided, override `n`
