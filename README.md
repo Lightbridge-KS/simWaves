@@ -9,7 +9,7 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-> Simulate Waveform to a data frame
+**An R-package for Simulating Waveform to a Data Frame**
 
 ## Installation
 
